@@ -25,6 +25,7 @@ namespace KHtest
             fP.ReadLastAndTotalReceiptNum();
 
             fP.CloseReceipt();
+            fP.GetHashCode();
 
             Console.WriteLine();
         }
